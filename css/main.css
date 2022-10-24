@@ -1,20 +1,21 @@
 
-
 .patrik {
     width: 130px;
     height: 195px;
     position: relative;
     display: inline-block;
-    margin: 50px;
+    margin: 100px;
+    padding-left: 30px;
 }
 .patrik .img-top {
-    width: 350px;
-    height: 370px;
+    width: 340px;
+    height: 360px;
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
+    
 }
 .patrik:hover .img-top {
     display: inline;
